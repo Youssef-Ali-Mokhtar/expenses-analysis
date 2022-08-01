@@ -1,0 +1,52 @@
+.salary-input {
+    color: white;
+    padding: 0 0.5rem;
+    display: flex;
+    width: 95%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5rem 0;
+  }
+
+  .salary-input label {
+    /* font-weight: bold; */
+    margin-bottom: 0.5rem;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .salary-input input {
+    font: inherit;
+    text-align: center;
+    width: 4rem;
+    height: 2.5rem;
+    /* font-weight: bold; */
+    border-radius: 6px;
+    background-color:rgb(82, 86, 173);
+    outline: none;
+    color:white;
+    transition: 0.3s all ease-in-out;
+  }
+
+  .salary-input input:focus {
+    border: 1px white solid;
+    transition: 0.3s all ease-in-out;
+  }
+
+  .salary-input input:hover {
+    border: 1px white solid;
+    transition: 0.3s all ease-in-out;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .salary-input {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .salary-input label{
+        font-size:0.8rem;
+      }
+  }

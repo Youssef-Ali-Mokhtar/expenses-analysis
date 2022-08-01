@@ -1,0 +1,53 @@
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    background: rgba(0,0,0,0.1); 
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+    background:rgba(150,150,150,0.5);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+.items-overlay{
+    width:100%;
+    height:100%;
+    background-color: rgba(0,0,0,0.6);
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.monthly-items-holder{
+    width:50vw;
+    height:80vh;
+    background:rgba(0,0,0, 0.6);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 10px;
+    color:white;
+    overflow-y: scroll;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .monthly-items-holder{
+        width:90vw;
+      }
+  }
+
+

@@ -1,0 +1,43 @@
+.item{
+    width:95%;
+    height:15%;
+    background: rgb(82, 86, 173);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0 5px 0;
+}
+
+.date-label{
+    border: 1px white solid;
+    border-style: dashed;
+    border-radius: 5px;
+    margin:5px;
+    flex:1;
+    display: flex;
+    font-size:12px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 5px; */
+}
+
+
+.product-label{
+    margin:5px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    flex:4;
+}
+.price-label{
+    margin:15px 5px 15px 5px;
+    border: 1px white solid;
+    /* border-style: dashed; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 12px;
+    flex:1;
+}
